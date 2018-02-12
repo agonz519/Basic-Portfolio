@@ -1,0 +1,119 @@
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#h-style1 {
+    color: #fff;
+}
+
+#h-style2 {
+    color: #4aaaa5;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 2px #cccccc solid;
+}
+
+body {
+    background-image: url("../images/ignasi_pattern_s.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    height: 100%;
+    margin: 0;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+}
+
+.col {
+    padding: 10px;
+}
+
+.entireContentArea {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+.logo {
+    float: left;
+    background-color: #4aaaa5;
+}
+
+.headerLinks {
+    background-color: #fff;
+    float: left;
+    text-align: right;
+}
+
+/* unvisited link */
+a:link {
+    color: #777777;
+}
+
+/* visited link */
+a:visited {
+    color: #777777;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4aaaa5;
+}
+
+/* selected link */
+a:active {
+    color: goldenrod;
+}
+
+#hrStyle1 {
+    margin: 30px auto;
+    border-top: 2px solid #c9c9c9;
+}
+
+#hrStyle2 {
+    margin-bottom: 20px;
+    border-top: 2px solid #c9c9c9;
+}
+
+.maincontent {
+    background-color: #fff;
+    width: 650px;
+    margin-right: 5px;
+    margin-bottom: 35px;
+    float: left;
+    padding: 7px;
+    line-height: 32px;
+    border: 1px #dddddd solid;
+}
+
+.sidecontent {
+    background-color: #fff;
+    width: 270px;
+    float: left;
+    padding: 7px;
+    text-align: center;
+    border: 1px #dddddd solid;
+}
+
+#lefty {
+    float: left;
+    margin-right: 15px;
+}
+
+.footer, .push {
+    height: 90px;
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    color: #c4c4c4;
+    font-size: small;
+    line-height: 90px;
+    border-top: #4aaaa5 10px solid;
+}
+
