@@ -28,6 +28,27 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #efeee7;
+    padding: 5px;
+    position: absolute;
+}
+
+#pos1 {
+    position: relative;
+}
+
+
+
 #h-style1 {
     color: #fff;
 }
@@ -91,6 +112,11 @@ body {
     width: 60%;
     padding: 10px;
     margin: auto;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: #efeee7;
 }
 
 /* unvisited link */
